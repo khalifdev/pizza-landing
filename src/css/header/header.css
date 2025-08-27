@@ -1,0 +1,256 @@
+.header{
+    height: 953px;
+    padding: 48px 130px 120px;
+}
+
+.navbar{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.logo{
+    width: 162px;
+    height: 37px;
+}
+
+.logo__ref{
+    font-family: Muller, Arial, sans-serif;
+    font-weight: 800;
+    font-size: 37px;
+    background-image: linear-gradient(to left, #FF6432, #FFA228);
+    color: transparent;
+    background-clip: text;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    width: 469px;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+}
+
+.menu__item{
+    font-family: Muller, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    list-style-type: none;
+    position: relative;
+}
+
+.menu-ref{
+    display: block;
+    text-decoration: none;
+    color: #A3A3A3;
+}
+
+.menu-mark{
+    position: absolute;
+    bottom: -14px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-image: linear-gradient(to left, #FF6432, #FFA228);
+    visibility: hidden;
+}
+
+.menu_active:nth-child(1){
+    background-image: linear-gradient(to left, #FF6432, #FFA228);
+    color: transparent;
+    background-clip: text;
+}
+
+.menu-ref:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to left, #FF6432, #FFA228);
+    color: transparent;
+    background-clip: text;
+}
+
+.navbar__buttons{
+    display: flex;
+    width: 223px;
+    justify-content: space-between;
+}
+
+.login-button{
+    width: 163px;
+    height: 40px;
+    border: 0;
+    border-radius: 20px;
+    background: linear-gradient(to left, #FF5D29, #FE9C1C);
+    color: #fff;
+    font-family: Muller, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.cart-button{
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 50%;
+    background: linear-gradient(to left, #FF5D29, #FE9C1C);
+    color: #fff;
+    cursor: pointer;
+}
+
+.header__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop-desc{
+    position: relative;
+    padding-top: 60px;
+    max-width: 538px;
+}
+
+.shop-desc__caption{
+    font-family: Muller, Arial, sans-serif;
+    font-weight: 800;
+    font-size: 58px;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 37px;
+}
+
+.caption__vector{
+    transform: translateY(30%);
+}
+
+.caption-lightning{
+    background-image: linear-gradient(to left, #FF6432, #FFA228);
+    color: transparent;
+    background-clip: text;
+    transform: translateY(10px) rotate(20deg);
+}
+
+.shop-desc__utp{
+    font-family: Muller, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #A3A3A3;
+    line-height: 30px;
+    text-align: left;
+    max-width: 420px;
+    margin-bottom: 23px;
+}
+
+.white{
+    color: #fff;
+    font-weight: 400;
+}
+
+.cooking-box{
+    text-align: left;
+    margin-bottom: 58px;
+}
+
+.cooking-box__caption{
+    font-family: Muller, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #A3A3A3;
+    margin-bottom: 12px;
+}
+
+.cooking-video{
+    height: 184px;
+    width: 272px;
+    border-radius: 23px;
+    background-image: url("../../assets/img/cooking_poster.jpg");
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-btn{
+    width: 84px;
+    height: 84px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background: url("/src/assets/img/Polygon.png") center no-repeat,
+    url("/src/assets/img/Ellipse.png") -35px -30px no-repeat;
+    
+}
+
+.double-btn{
+    position: relative;
+    width: 388px;
+}
+
+.to-order-btn{
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    height: 62px;
+    width: 230px;
+    border: 0;
+    border-radius: 30px;
+    background: linear-gradient(to left, #FF5D29, #FE9C1C);
+    color: #fff;
+    font-family: Muller, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.menu-btn{
+    position: absolute;
+    right: 0;
+    height: 62px;
+    width: 230px;
+    background-color: transparent;
+    border: 3px solid transparent; /*Обводка нужной толщины, но прозрачная*/
+    background: linear-gradient(#FF6939 , #FFA631); /*Нужный градиент в качестве фона*/
+    box-shadow: inset 0px 0px 0px 100vw #210A01; /*Тень направленная внутрь контейнера, перекрывает ненужный фон и оставляет только рамку*/
+    border-radius: 30px; /*Скругляет углы*/
+    cursor: pointer;
+}
+
+.menu-btn__text{
+    padding-left: 60px;
+    font-family: Muller, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    background-image: linear-gradient(to left, #FF6432, #FFA228);
+    color: transparent;
+    background-clip: text;
+}
+
+.shop-desc__vector{
+    position: absolute;
+    bottom: -60px;
+    right: -40px;
+}
+
+.poster-box{
+    width: 456px;
+    height: 676px;
+    border-radius: 46px;
+    position: relative;
+    background: url("../../assets/img/poster.jpg") center no-repeat;
+}
+
+.fries-pic{
+    position: absolute;
+    bottom: -113px;
+    left: -170px;
+}
+
+.pizza-pic{
+    position: absolute;
+    top: -61px;
+    right: -95px;
+}
