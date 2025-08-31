@@ -1,6 +1,6 @@
 .header{
-    height: 953px;
-    padding: 48px 130px 120px;
+    height: 880px;
+    padding: 48px 130px 0px;
 }
 
 .navbar{
@@ -211,22 +211,12 @@
     right: 0;
     height: 62px;
     width: 230px;
-    background-color: transparent;
-    border: 3px solid transparent; /*Обводка нужной толщины, но прозрачная*/
-    background: linear-gradient(#FF6939 , #FFA631); /*Нужный градиент в качестве фона*/
-    box-shadow: inset 0px 0px 0px 100vw #210A01; /*Тень направленная внутрь контейнера, перекрывает ненужный фон и оставляет только рамку*/
-    border-radius: 30px; /*Скругляет углы*/
-    cursor: pointer;
+    border-radius: 30px;
 }
 
 .menu-btn__text{
     padding-left: 60px;
-    font-family: Muller, Arial, sans-serif;
-    font-weight: 500;
     font-size: 19px;
-    background-image: linear-gradient(to left, #FF6432, #FFA228);
-    color: transparent;
-    background-clip: text;
 }
 
 .shop-desc__vector{

@@ -52,8 +52,8 @@
           <button class="to-order-btn">
             <span class="to-order-btn__text">To order</span>
           </button>
-          <button class="menu-btn">
-            <span class="menu-btn__text">Pizza-Menu</span>
+          <button class="menu-btn btn_clip">
+            <span class="menu-btn__text btn_text_clip">Pizza-Menu</span>
           </button>
         </div>
         <img src="../assets/img/Vector1.png" alt="vector2" class="shop-desc__vector">
