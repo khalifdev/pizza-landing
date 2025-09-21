@@ -1,9 +1,3 @@
-@import "css/header/header.css";
-@import "css/main/main.css";
-@import "css/buttons/button_clip.css";
-@import "css/fontawesome/css/solid.css";
-@import "css/fontawesome/css/fontawesome.css";
-
 @font-face {
   font-family: "Muller";
   font-style: normal;
@@ -40,4 +34,20 @@ body {
   margin: 0 auto;
   background-color: #210A01;
   text-align: center;
+}
+
+.btn_clip{
+    cursor: pointer;
+    border: 3px solid transparent; /*Обводка нужной толщины, но прозрачная*/
+    background: linear-gradient(#FF6939 , #FFA631); /*Нужный градиент в качестве фона*/
+    box-shadow: inset 0px 0px 0px 100vw #210A01; /*Тень направленная внутрь контейнера, перекрывает ненужный фон и оставляет только рамку*/
+    
+}
+
+.btn_text_clip{
+    font-family: Muller, Arial, sans-serif;
+    font-weight: 500;
+    background-image: linear-gradient(to left, #FF6432, #FFA228);
+    color: transparent;
+    background-clip: text;
 }

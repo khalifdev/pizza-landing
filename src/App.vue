@@ -7,7 +7,3 @@ import Main from './components/Main.vue'
   <Header/>
   <Main/>
 </template>
-
-<style scoped>
-
-</style>
